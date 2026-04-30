@@ -72,6 +72,8 @@ That script extracts the zip and copies `ffmpeg.exe` and `ffprobe.exe` into the 
 
 The app uses `.env` for local configuration.
 
+`.env` is not included in the public project files and should not be uploaded or committed to a public repository.
+
 Typical local values include:
 
 ```env
@@ -203,4 +205,3 @@ package.json
 - This file is for contributors and local development.
 - Public Windows releases may still show SmartScreen warnings if the installer is not code-signed.
 - Downloaded media is intentionally not removed during uninstall.
-
